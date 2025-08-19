@@ -1,0 +1,56 @@
+
+
+
+.slogan{
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #023e8a;
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    
+}
+
+.no1{
+    padding-top:2em;
+    font-family: 'Inter', sans-serif;
+}
+
+.team{
+    margin-top:4.5em;
+}
+
+.imgtile{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:15rem;
+}
+
+img{
+    width:30em;
+    height:30em;
+}
+
+.teammember1 p, h2{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:900;
+}
+
+.teammember2 p, h2{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:900;
+}
+
+.contact{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:1em;
+}
+
