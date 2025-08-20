@@ -54,7 +54,7 @@ function HomePage() {
 
           <div style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+            gridTemplateColumns: "repeat(3, 1fr)",
             gap: "2rem",
             marginBottom: "3rem"
           }}>
@@ -479,7 +479,7 @@ function HomePage() {
         {/* Statistics Banner */}
         <div style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
+          gridTemplateColumns: "repeat(3, 1fr)",
           gap: "2rem",
           padding: "2rem",
           backgroundColor: "#e8f5e8",
@@ -494,7 +494,7 @@ function HomePage() {
               color: "#2e7d32",
               marginBottom: "0.5rem"
             }}>
-              200+
+              195
             </div>
             <p style={{ color: "#666", fontWeight: "500" }}>Countries Covered</p>
           </div>
@@ -521,18 +521,6 @@ function HomePage() {
               24/7
             </div>
             <p style={{ color: "#666", fontWeight: "500" }}>Real-time Updates</p>
-          </div>
-
-          <div style={{ textAlign: "center" }}>
-            <div style={{
-              fontSize: "2.5rem",
-              fontWeight: "700",
-              color: "#2e7d32",
-              marginBottom: "0.5rem"
-            }}>
-              100%
-            </div>
-            <p style={{ color: "#666", fontWeight: "500" }}>Accurate Data</p>
           </div>
         </div>
       </header>
